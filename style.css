@@ -15,6 +15,7 @@ body,html{
 figcaption{
 	font-size: 8px;
 	text-align: center;
+	align-content: center;
 
 }
 
@@ -64,7 +65,7 @@ img{
 	max-width: device-width;
 	margin: 10px;	
 	padding: 5px;
-	background-color: floralwhite;
+	background-color: aliceblue;
 
 }
 .box.photo{
@@ -78,10 +79,11 @@ img{
 	margin: 10px;	
 	padding: 10px;
 	background-color: lavender;
+	text-align: center;
 }
 
 figure{
-    background-color: floralwhite;
+    background-color: aliceblue;
     margin-top: 0;
     margin-bottom: 0;
     align-content: left;
@@ -104,6 +106,7 @@ figcaption {
     margin: 0;
     font-size: 0.9rem;
     color: 3333;
+    text-align: center;
 }
 
 @media(max-width: 681px){
@@ -156,11 +159,13 @@ img.icon{
 @media(min-width: 780px) {
 
 body{
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 15%;
+	margin-right: 15%;
 	justify-content: space-evenly;
 }
-
+figcaption{
+	text-align: center;
+}
 img{
 	max-width: device-width;
 }
@@ -168,18 +173,22 @@ img{
    div.flex{
         display: flex;
         justify-content: space-evenly;
-        background-color: floralwhite;
+        background-color: aliceblue;
         margin: 10px;
     }
 
 .flex>div{
     flex-basis: 50%;
 }
+.footer{
+	text-align: center;
+}
 .box{
-	max-width: 700px;
+	max-width: 1000px;
 	margin: 10px;	
 	padding: 10px;
-	background-color: floralwhite;
+	background-color: aliceblue;
+	text-align: left;
 }
 }
 img.icon{
